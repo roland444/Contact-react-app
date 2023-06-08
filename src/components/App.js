@@ -16,12 +16,12 @@ function App() {
       "name": "Jacob",
       "email": "second.example@gmail.com",
     },
-  ]
+  ];
   return (
     <div className='ui container'>
       <Header />
       <AddContact />
-      <ContactList contacts= { contacts }/>
+      <ContactList contacts= {contacts}/>
     </div>
   );
 }
